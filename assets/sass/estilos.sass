@@ -101,7 +101,7 @@ body
     .info-texto
         display: flex
         flex-direction: column
-        justify-content: center
+        
         margin-left: 100px
         margin-top: 90px
         overflow-y: scroll
@@ -151,6 +151,8 @@ body
             align-items: center
             .copa
                 width: 40%
+                margin: 0 auto
+                display: flex
     .filter-bar
         button
             width: 40px
@@ -161,3 +163,22 @@ body
                 display: none
             .spsin
                 display: none
+    .info-cocktail
+        flex-direction: column
+        padding-bottom: 40px
+        height: 100%
+        div
+            width: 100%
+            h2
+                margin-left: 10px
+            img
+                margin-left: 30px
+                object-fit: cover
+                width: 80%
+
+        .info-texto
+            width: 70%
+            margin-left: 30px
+            margin-top: 10px
+            overflow-y: visible
+            height: 100%
